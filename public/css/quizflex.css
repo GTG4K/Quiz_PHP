@@ -1,0 +1,106 @@
+.quiz-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.show-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+}
+
+.flex-column{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.flex-column h1{
+    text-align: center;
+    background-image: linear-gradient(to left, #7543d3, #3163e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.flex-column button{
+    display: block;
+    background: linear-gradient(to left, #8860d0, #5680e9);
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px 40px;
+}
+
+.flex-column input{
+    background:radial-gradient(#f0f4ff, #b9e8ff);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px 25px;
+    border: none;
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 10px 30px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.button{
+    display: block;
+    background: linear-gradient(to left, #ff5c5c, #ff42d6);
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border:none;
+    font-size: 16px;
+    border-radius: 15px;
+    width: 100%; 
+    margin-top: 10px;
+    padding: 12px 20px;
+}
+
+.button2{
+    display: block;
+    background: linear-gradient(to left, #8860d0, #5680e9);
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border:none;
+    font-size: 16px;
+    border-radius: 15px;
+    width: 100%; 
+    margin-top: 10px;
+    padding: 12px 20px;
+}
+
+.block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+}
+
+
+.block2{
+    display: block;
+    width: 62%;
+}

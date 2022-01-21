@@ -1,0 +1,48 @@
+.question_element{
+    display: flex;
+    background:radial-gradient(#88a6e7, #8fdaff);
+    border-radius: 15px;
+    padding: 20px;
+    min-width: 60%;
+}
+
+.question_element img{
+    display: block;
+    width: 200px;
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.question_element p{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: white;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.question_element h1{
+    font-size: 25px;
+    background-image: linear-gradient(to left, #7543d3, #3163e4);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.question_element input[type=radio]{
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.question_element label{
+    padding-left: 10px;
+    margin-bottom: 4px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}

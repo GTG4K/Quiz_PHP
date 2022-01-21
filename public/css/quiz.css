@@ -1,0 +1,57 @@
+.flex-element{
+    background:radial-gradient(#88a6e7, #8fdaff);
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    width: 25%;
+}
+
+.flex-element img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.flex-element h3{
+    text-align: center;
+    font-size: 25px;
+    background-image: linear-gradient(to left, #7543d3, #3163e4);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flex-element h2{
+    text-align: center;
+    background-image: linear-gradient(to left, #7543d3, #3163e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.flex-element p{
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 10px 30px;
+    color: white;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.flex-element a{
+    display: block;
+    background: linear-gradient(to left, #8860d0, #5680e9);
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 60%; 
+    padding: 12px 20px;
+}
+
+
